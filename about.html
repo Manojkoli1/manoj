@@ -1,57 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
-<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="about.css">
-<link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="media.css">
 
 
 </head>
+
 <body>
-    <div class="container-fluid justify-content-between align-items-center  shadow-sm header">
-        <div class=" container navbar">
-            <h2 class="logo  mx-2 py-1">Portfolio</h2>
-            <ul class="nav fs-5">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="project.html">Project</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="about.html">About</a>
-                </li>
-            </ul>
-            <button class="loginBtn"><i class="bi bi-person" data-bs-toggle="modal"  data-bs-target="#form" ></i></button>
-        </div>
+  <div class="container-fluid justify-content-between align-items-center  shadow-sm header">
+    <div class=" container navbar">
+      <h2 class="logo  mx-2 py-1">Portfolio</h2>
+      <ul class="nav fs-5">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+      </ul>
+      <button class="loginBtn"><i class="bi bi-person" data-bs-toggle="modal" data-bs-target="#form"></i></button>
     </div>
-   
-    <div class="container-fluid my-5">
-       <div class="container aboutText"> <h2 class=" col-lg-12 col-sm-12 ">About Me</h2></div>
-        </div>
-        <div class="container my-5 aboutSec">
-             <p>Hello! i'm <strong class="highlight">Manoj Koli</strong>, a passionate  <strong class="highlight">web developer </strong>with expertise in HTML, CSS, Javascript, and Bootstrap.</p>
-             <p>I love to build clean , responsive website and enjoy working on creative website.</p>
-             <p>Outside of coding , I enjoy reading, photography and exploring new technologies.</p>
-        </div>
-        <h3 class="container my-3 contactText">Contact & Address</h3>
-        <ul class="container info">
-                <li><strong>Email : </strong>  Manojkoli108@gmail.com</li>
-                <li><strong>Phone : </strong> +918475813345</li>
-                <li><strong>Location : </strong> Rudrapur, India</li>
-                <li><strong>Languages : </strong> English, Hindi</li>
-        </ul>
+  </div>
+
+  <div class="container-fluid my-5">
+    <div class="container aboutText">
+      <h2 class=" col-lg-12 col-sm-12">About Me</h2>
     </div>
+  </div>
+  <div class="container my-5 aboutSec">
+    <p>Hello! i'm <strong class="highlight">Manoj Koli</strong>, a passionate <strong class="highlight">web developer
+      </strong>with expertise in HTML, CSS, Javascript, and Bootstrap.</p>
+    <p>I love to build clean , responsive website and enjoy working on creative website.</p>
+    <p>Outside of coding , I enjoy reading, photography and exploring new technologies.</p>
+  </div>
+  <h3 class="container my-3 contactText">Contact & Address</h3>
+  <ul class="container info">
+    <div>
+      <li><strong>Email : </strong> Manojkoli108@gmail.com</li>
+      <li><strong>Phone : </strong> +918475813345</li>
+      <li><strong>Location : </strong> Rudrapur, India</li>
+      <li><strong>Languages : </strong> English, Hindi</li>
+    </div>
+  </ul>
+  </div>
 
 
   <!-- Modal -->
@@ -63,22 +70,23 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <div class="formData d-flex justify-content-center" id="form">
-                <form action="submit" method="POST">
-                    <lable class="mb-5" for="Name">Name</lable><br>
-                    <input  type="text" placeholder="Enter your name"><br><br>
-                    <lable for="password">Password</lable><br>
-                    <input type="text" placeholder="Enter your password "><br><br>
-                  <div class="button d-flex justify-content-center">
-                    <button class=" px-3 py-1 ">Register</button>
-                  </div>
-                </form>
+          <div class="formData d-flex justify-content-center" id="form">
+            <form action="submit" method="POST">
+              <lable class="mb-5" for="Name">Name</lable><br>
+              <input type="text" placeholder="Enter your name"><br><br>
+              <lable for="password">Password</lable><br>
+              <input type="text" placeholder="Enter your password "><br><br>
+              <div class="button d-flex justify-content-center">
+                <button class=" px-3 py-1 ">Register</button>
               </div>
+            </form>
+          </div>
         </div>
-        
+
       </div>
     </div>
   </div>
 
 </body>
+
 </html>

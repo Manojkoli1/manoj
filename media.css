@@ -1,12 +1,86 @@
 @media only screen and (max-width:768px) {
-
-    /*For Home page */
-    .navbar{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 
-   
+    /*For Home page */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+
+        font-size: 50px;
+    }
+
+    .heroSection {
+        margin-top: -75px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftSection p {
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .rightSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+
+    }
+
+    /* About section */
+
+    .projectText {
+        text-align: center;
+    }
+
+    .projectContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectBox {
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .aboutText {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .aboutSec p {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+
+    .contactText {
+        text-align: center;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+
+    }
+
+
+
+
 }
