@@ -1,7 +1,12 @@
 @media only screen and (max-width:768px) {
 
     /*For Home page */
-    
+    .navbar{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
 
    
 }
