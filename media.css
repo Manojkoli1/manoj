@@ -68,6 +68,12 @@
         font-weight: 600;
 
     }
+    .aboutSec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
     .contactText {
         font-weight: 600;
