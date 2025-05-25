@@ -45,6 +45,7 @@
 
     .projectText {
         text-align: center;
+        font-weight: 600;
     }
 
     .projectContainer {
@@ -60,6 +61,12 @@
     .aboutText {
         text-align: center;
         margin-top: 0;
+        font-weight: 600;
+
+    }
+    .contactText{
+        font-weight: 600;
+    
     }
 
     .aboutSec p {
@@ -77,6 +84,7 @@
         justify-content: center;
         align-items: center;
         font-size: 16px;
+        margin-top: 40px;
 
     }
 
