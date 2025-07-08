@@ -8,7 +8,11 @@ body{
 .navbar-brand{
     margin-left: -15px;
 }
-
+.greet{
+   
+    font-size: 30px;
+    font-weight: 700;
+}
 .nav-item{
     font-size: 20px;
     margin-left: 10px;
@@ -97,11 +101,15 @@ body{
            flex-direction: column-reverse;
 
     }
+    .greet{
+       font-size: 30px;
+       font-weight: 700;
+    }
     .left{
         margin-top: -30px;
     }
    .left p{
-    font-size: 12px;
+    font-size: 14px;
    }
    .left h1{
     font-size: 40px;
