@@ -1,27 +1,3 @@
 body{
     font-family: 'poppins', sans-serif;
 }
-.aboutSec p{
-    line-height: 18px;
-    font-size: 20px;
-}
-
-.info li{
-    line-height: 35px;
-    font-size: 18px;
-    list-style: none;
-}
-.nav a{
-    text-decoration: none;
-    color: black;
-}
-.nav a.active{
-    color: rgb(34, 197, 197);
-    border-bottom: 2px solid rgb(34, 196, 196);
-}
-.highlight{
-    color: rgb(41, 180, 180);
-}
-.modal{
-    margin-top: 50px;
-}
