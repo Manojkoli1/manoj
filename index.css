@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 section{
-    scroll-margin-top: 100px;
+    scroll-margin-top: 70px;
 }
 .nav-link.active{
     color: rgb(3, 201, 201) !important;
