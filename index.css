@@ -272,9 +272,13 @@ section{
 .projectSection{
     margin-top: 10px;
 }
+.projects.container{
+    width: 95%;
+}
+
 .item{
     height: 250px;
-    width: 90%;
+    width: 88%;
 }
 .skillSection .container{
     margin-top: 50px;
