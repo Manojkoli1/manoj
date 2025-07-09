@@ -300,4 +300,7 @@ section{
 .nav-link{
     border-bottom: none;
 }
+.navbar-brand{
+    font-family: cursive;
+}
 }
