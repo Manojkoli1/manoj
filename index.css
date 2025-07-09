@@ -126,7 +126,7 @@ section{
     color: rgb(8, 196, 196);
     font-weight: 700;
     margin-bottom: 50px;
-   
+    background-color: black;    
     
 }
 
@@ -141,6 +141,8 @@ section{
     font-weight: 700;
     margin-top: 50px;
     color: rgb(8, 196, 196);
+    background-color: black;
+
     
 }
 .skillSection ul li{
@@ -152,6 +154,8 @@ section{
     font-weight: 700;
     margin-top: 50px;
     color: rgb(8, 196, 196);
+    background-color: black;
+
 
 }
 .aboutMe p{
@@ -168,6 +172,7 @@ section{
     font-weight: 700;
     margin-top: 50px;
     color: rgb(8, 196, 196);
+    background-color: black;
 
 
 }
@@ -273,15 +278,19 @@ section{
 }
 .skillSection .container{
     margin-top: 50px;
+    width: 95%;
+}
+.skillSection ul{
     width: 90%;
 }
 .aboutMe .container{
-    width: 90%;
+    width: 95%;
 }
 .aboutMe p{
     line-height: 30px;
 }
 .contactMe .container{
-    width: 90%;
+    width: 95%;
 }
+
 }
