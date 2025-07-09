@@ -123,7 +123,7 @@ section{
     justify-content: center;
 }
 .projects h1{
-    background-color: rgb(8, 196, 196);
+    color: rgb(8, 196, 196);
     font-weight: 700;
     margin-bottom: 50px;
    
@@ -140,7 +140,7 @@ section{
 .skillText h1{
     font-weight: 700;
     margin-top: 50px;
-    background-color: rgb(8, 196, 196);
+    color: rgb(8, 196, 196);
     
 }
 .skillSection ul li{
@@ -151,7 +151,7 @@ section{
 .aboutMe h1{
     font-weight: 700;
     margin-top: 50px;
-    background-color: rgb(8, 196, 196);
+    color: rgb(8, 196, 196);
 
 }
 .aboutMe p{
@@ -167,7 +167,7 @@ section{
 .contactMe h1{
     font-weight: 700;
     margin-top: 50px;
-    background-color: rgb(8, 196, 196);
+    color: rgb(8, 196, 196);
 
 
 }
