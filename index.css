@@ -1,8 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+section{
+    scroll-margin-top: 100px;
 }
 
 .navbar-brand {
@@ -93,7 +100,7 @@ body {
 
 /* Projects */
 .projectSection{
-    margin-top: 150px;
+    margin-top: 115px;
 }
 .item {
     border: 2px solid black;
@@ -108,11 +115,17 @@ body {
     /* background-color: rgb(8, 196, 196); */
     font-weight: 700;
     margin-bottom: 50px;
+   
     
 }
 
 /* Skills  */
-
+.skillSection{
+    margin-top: 90px;
+}
+.skillSection .container{
+    margin-top: 50px;
+}
 .skillText h1{
     font-weight: 700;
     margin-top: 50px;
