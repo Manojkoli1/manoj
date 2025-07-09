@@ -33,13 +33,11 @@ section{
 }
 
 .nav-link:hover{
-  
-        color: rgb(7, 194, 194);
-        border-bottom: 3px solid rgb(7, 194, 194);
+    color: rgb(7, 194, 194);
+    border-bottom: 3px solid rgb(7, 194, 194);
     
 }
 .navbar-brand {
-    font-family: cursive;
     font-size: 30px;
     font-weight: bold;
 
