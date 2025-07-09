@@ -297,5 +297,7 @@ section{
 .contactMe .container{
     width: 95%;
 }
-
+.nav-link{
+    border-bottom: none;
+}
 }
