@@ -294,8 +294,8 @@ section{
     width: 90%;
 }
 .aboutText{
-    width: 90%;
-    padding: 15px;
+    width: 100%;
+    padding: 5px;
 }
 .aboutMe .container{
     width: 96%;
@@ -309,8 +309,8 @@ section{
     width: 96%;
 }
 .infoText{
-        width: 90%;
-    padding: 15px;
+        width: 100%;
+    padding: 5px;
 }
 
 .nav-link{
