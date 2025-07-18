@@ -115,41 +115,44 @@ section{
 .item {
     border: 2px solid black;
     height: 300px;
-    width: 32%;
+    width: 31%;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+  
 }
 .projects h1{
     color: rgb(8, 196, 196);
     font-weight: 700;
     margin-bottom: 50px;
     background-color: black;    
-  
-
     
-    
+}
+.projectsContainer{
+    gap: 14px;
 }
 
 /* Skills  */
 .skillSection{
     margin-top: 90px;
 }
+
 .skillSection .container{
     margin-top: 50px;
 }
+
 .skillText h1{
     font-weight: 700;
     margin-top: 50px;
     color: rgb(8, 196, 196);
-    background-color: black;
+    background-color: black;    
+}
 
-    
-}
 .skillSection ul {
-    margin-left: 20px;
+   width: 95%;
 }
+
 .skillSection ul li{
     font-size: 18px;
     line-height: 30px;
@@ -313,11 +316,10 @@ section{
     padding: 5px;
 }
 
-.nav-link{
-    border-bottom: none;
+nav a.active{
+    border-bottom: none !important;
+
 }
-ul li a{
-    border-bottom: none;
-}
+
 
 }
