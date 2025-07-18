@@ -283,6 +283,9 @@ section{
 .projects.container{
     width: 95%;
 }
+.projectsContainer .item{
+    margin-top: 0px;
+}
 
 .item{
     height: 250px;
