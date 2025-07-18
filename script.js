@@ -4,3 +4,13 @@ document.querySelectorAll('.nav-link').forEach(link => {
         this.classList.add('active');
     })
 })
+
+// Initialize Lenis
+
+const lenis = new Lenis();
+
+function  raf (time){
+    lenis.raf(time)
+    requestAnimationFrame(time)
+}
+requestAnimationFrame(raf)

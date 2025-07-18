@@ -125,7 +125,8 @@ section{
     color: rgb(8, 196, 196);
     font-weight: 700;
     margin-bottom: 50px;
-    background-color: black;    
+    /* background-color: black;     */
+    
     
 }
 
@@ -140,7 +141,7 @@ section{
     font-weight: 700;
     margin-top: 50px;
     color: rgb(8, 196, 196);
-    background-color: black;
+    /* background-color: black; */
 
     
 }
@@ -156,7 +157,7 @@ section{
     font-weight: 700;
     margin-top: 50px;
     color: rgb(8, 196, 196);
-    background-color: black;
+    /* background-color: black; */
 
 
 }
@@ -174,7 +175,7 @@ section{
     font-weight: 700;
     margin-top: 50px;
     color: rgb(8, 196, 196);
-    background-color: black;
+    /* background-color: black; */
 
 
 }
@@ -285,21 +286,28 @@ section{
 .skillSection .container{
     margin-top: 50px;
     width: 95%;
+   
 }
 .skillSection ul{
     width: 90%;
 }
 .aboutMe .container{
-    width: 95%;
+    width: 96%;
+    padding: 25px;
   
 }
 .aboutMe p{
     line-height: 30px;
 }
 .contactMe .container{
-    width: 95%;
+    width: 96%;
+    padding: 25px;
+
 }
 .nav-link{
+    border-bottom: none;
+}
+ul li a{
     border-bottom: none;
 }
 
