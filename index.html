@@ -13,172 +13,58 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="media.css">
-    <script src="https://unpkg.com/lenis@1.3.7/dist/lenis.min.js"></script> 
+    <script src="https://unpkg.com/lenis@1.3.7/dist/lenis.min.js"></script>
     <script defer src="script.js"></script>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light shadow-sm container-fluid col-12 position-sticky top-0">
-        <div class="container">
-            <div class="container NavBarm">
-                <a class="navbar-brand" href="#">Manoj</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active"  href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+
+<section id="portfolio">
+<!-- Navbar -->
+    <nav class="container">
+        <h1 class="logo">Manoj</h1>
+        <div class="navbar">
+            <ul>
+                <i class="bi bi-list"></i>        
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Projects</li></a> 
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact</li></a>
+              
+                
+            </ul>
+        </div>
+        <div class="mode">
+            <i class="bi bi-moon"></i>
+            <i class="bi bi-brightness-high"></i>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-
-    <section class="HeroSection" id="home">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row heroSection">
-                    <div class="left col-lg-6 col-12 col-sm-6">
-                        <div>
-                            <p class="greet">Hey, i'm Manoj,</p>
-                            <h1>
-                                <span>Full</span> Stack
-                            </h1>
-                            <h1>Developer</h1>
-                            <div class="text my-4">
-                                <p>I'm full stack developer based in india i'll help you</p>
-                                <p>build beautifull websites your users will love.</p>
-                            </div>
-                        </div>
-                        <div class="buttons my-4">
-                            <a href="#contact"> <button class="px-5 py-1 getInTouch">Get In Touch</button></a>
-                           <a href="#projects">   <button class="px-5 py-1 projectLink">Browse Projects</button></a>
-                          
-                        </div>
-                    </div>
-
-                    <div class="right col-lg-6 col-12 col-sm-6 d-flex justify-content-end align-items-center">
-                        <div class="circle d-flex justify-content-center align-items-center">
-                            <img src="assets/manoj.jpeg" alt="Manoj.image" class="img-fluid rounded-circle">
-                        </div>
 
 
 
-                    </div>
-                </div>
-            </div>
-        </div>
+</section>
 
 
-    </section>
-
-    <!-- Projects  -->
-
-    <section class="projectSection" id="projects">
-        <div class="container projects">
-            <h1 class="text-center py-3">Projects</h1>
-        </div>
-        <div class="container ">
-            <div class="row justify-content-center align-items-center projectsContainer">
-                <div class="item col-12 col-lg-4 col-sm-6 mx-2 my-3">Project 1</div>
-                <div class="item col-12 col-lg-4 col-sm-6 mx-2 my-3">Project 2</div>
-                <div class="item col-12 col-lg-4 col-sm-6 mx-2 my-3">Project 3</div>
-                <div class="item col-12 col-lg-4 col-sm-6 mx-2 my-3">Project 4</div>
-                <div class="item col-12 col-lg-4 col-sm-6 mx-2 my-3">Project 5</div>
-                <div class="item col-12 col-lg-4 col-sm-6 mx-2 my-3">Project 6</div>
-            </div>
-        </div>
-    </section>
 
 
-    <!-- Skills -->
-    <section class="skillSection" id="skills">
-
-        <div class="container skillText ">
-            <h1 class="text-center py-3"> Technical Skills</h1>
-        </div>
-
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <ul class="col-12 col-lg-12 col-sm-12">
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
-                    <li>Javascript</li>
-                    <li>Bootstrap</li>
-                    <li>Vue js</li>
-                    <li>ASP Dotnet Core</li>
-                    <li>PostgreSQL Database</li>
-                    <li>LINQ - Language Integrated Query</li>
-                    <li>Node js</li>
-                    <li>Express js</li>
-                </ul>
-
-            </div>
-        </div>
-
-    </section>
-
-<!-- About section -->
-
-    <section class="aboutMe" id="about">
-
-        <div class="container">
-            <h1 class="text-center my-5 py-3">About </h1>
-        </div>
-        <div class="container">
-            <div class="row aboutText">
-                <p>Hello i'm <strong>Manoj Koli</strong>, a passionate <strong>Web developer</strong> with expertise in
-                    ASP Dotnet Core, LINQ, HTML, CSS, Javascript, PostgreSQL and Bootstrap.</p>
-                <p>i love to build clean, responsive websites and enjoy working on creative websites.
-                <p>Outside of coding, I enjoy reading, and exploring new technologies</p>
-                </p>
-              
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Contact -->
-
-    <section class="contactMe" id="contact">
-        <div class="container">
-            <h1 class="text-center py-3">Contact Info</h1>
-        </div>
-
-        <div class="container">
-            <div class="row infoText">
-                <div class="info my-5">
-                    <p><strong> Email :</strong> Manojkoli108@gmail.com</p>
-                    <p><strong> Phone :</strong> +91 8475813345</p>
-                    <p><strong> Location :</strong> Uttrakhand, India</p>
-                    <p><strong> Language :</strong> English & Hindi</p>
-                </div>
-            </div>
-        </div>
 
 
-    </section>
 
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- locomotive scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
 </body>
 
 </html>

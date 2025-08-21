@@ -1,334 +1,46 @@
-html{
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'poppins', sans-serif;
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-section{
-    scroll-margin-top: 70px;
-}
-.nav-link.active{
-    color: rgb(3, 201, 201) !important;
-    font-weight: bold;
-   
-}
-.navbar-brand {
-    margin-left: -15px;
+body{
+    background-color: rgb(93, 96, 100);
+    color: whitesmoke;
 }
 
-.greet {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.nav-item {
-    font-size: 20px;
-    margin-left: 10px;
-
-}
-
-.nav-link:hover{
-    color: rgb(7, 194, 194);
-    border-bottom: 3px solid rgb(7, 194, 194);
-    
-}
-.navbar-brand {
-    font-size: 30px;
-    font-weight: bold;
-
-}
-
-.left {
-    margin-top: 140px;
-}
-
-.left p {
-    line-height: 12px;
-    font-size: 18px;
-}
-
-.left h1 {
-
-    font-size: 60px;
-    font-weight: 600;
-}
-
-.left span {
-    color: rgb(5, 198, 198);
-}
-
-.getInTouch {
-    border: none;
-    background-color: rgb(31, 29, 29);
-    color: white;
-
-    &:hover {
-        background-color: black;
-    }
-}
-
-.projectLink {
-    border: none;
-    background-color: rgb(235, 231, 231);
-    color: rgb(16, 16, 16);
-    font-weight: 700;
-
-    &:hover {
-        background-color: lightgray;
-    }
-}
-
-.right {
-    margin-top: 120px;
-}
-
-.circle {
-    height: 370px;
-    width: 370px;
-    border-radius: 100%;
-    border: 1px solid rgb(197, 195, 195);
-}
-
-.circle img {
-    height: 330px;
-    width: 330px;
-    border-radius: 100%;
-    object-fit: cover;
-
-    &:hover {
-        transform: scale(1.05);
-        transition: all 0.3s ease-in-out;
-
-    }
-
-}
-
-/* Projects */
-.projectSection{
-    margin-top: 145px;
-}
-.item {
-    border: 2px solid black;
-    height: 300px;
-    width: 31%;
+nav{
     display: flex;
-    text-align: center;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-  
-}
-.projects h1{
-    color: rgb(8, 196, 196);
-    font-weight: 700;
-    margin-bottom: 50px;
-    background-color: black;    
-    
-}
-.projectsContainer{
-    gap: 14px;
-}
-
-/* Skills  */
-.skillSection{
-    margin-top: 90px;
-}
-
-.skillSection .container{
-    margin-top: 50px;
-}
-
-.skillText h1{
-    font-weight: 700;
-    margin-top: 50px;
-    color: rgb(8, 196, 196);
-    background-color: black;    
-}
-
-.skillSection ul {
-   width: 95%;
-}
-
-.skillSection ul li{
-    font-size: 18px;
-    line-height: 30px;
-}
-/* About */
-.aboutMe h1{
-    font-weight: 700;
-    margin-top: 50px;
-    color: rgb(8, 196, 196);
-    background-color: black;
-
-
-}
-.aboutMe p{
-    font-size: 18px;
-    line-height: 20px;
-}
-.aboutMe strong{
-    color: rgb(7, 169, 169);
-}
-
-/* contact */
-
-.contactMe h1{
-    font-weight: 700;
-    margin-top: 50px;
-    color: rgb(8, 196, 196);
-    background-color: black;
-
-
-
-
-}
-.contactMe p{
-    font-size: 18px;
-    line-height: 20px;
-}
-
-/* Media Query */
-
-
-@media (max-width:576px) {
-    .navbar-brand {
-        margin-left: 2px;
-    }
-
-    #navbarNavDropdown {
-        margin-left: 10px;
-
-    }
-
-    .NavBarm {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .heroSection {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column-reverse;
-        margin-top: -40px;
-    }
-
-    .greet {
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    .left {
-        margin-top: -60px;
-    }
-
-    .left p {
-        font-size: 13px;
-    }
-
-    .left h1 {
-        font-size: 40px;
-    }
-
-    .buttons {
-        margin-top: -100%;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-
-    }
-
-    .getInTouch {
-        width: 100%;
-        height: 40px;
-        margin-top: 10px;
-
-    }
-
-    .projectLink {
-        width: 100%;
-        height: 40px;
-        margin-top: 5px;
-
-    }
-
-    /* RIGHT SECTION */
-
-    .right {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-
-    }
-
-    .circle {
-        width: 100%;
-        border: none;
-
-    }
-
-    .right img {
-        margin-top: -50px;
-        height: 260px;
-        width: 260px;
-    }
-
-.projectSection{
-    margin-top: 60px;
-}
-.projects.container{
-    width: 95%;
-}
-.projectsContainer .item{
-    margin-top: 0px;
-}
-
-.item{
-    height: 250px;
-    width: 88%;
-}
-.skillSection .container{
-    margin-top: 50px;
-    width: 95%;
    
+
 }
-.skillSection ul{
-    width: 87%;
+nav ul{
+    margin-top: 20px;
 }
-.aboutText{
-    width: 100%;
-    padding: 5px;
+nav ul a{
+    color: whitesmoke;
 }
-.aboutMe .container{
-    width: 96%;
- 
-  
-}
-.aboutMe p{
-    line-height: 30px;
-}
-.contactMe .container{
-    width: 96%;
-}
-.infoText{
-    width: 100%;
-    padding: 5px;
+nav ul li{
+    margin:0 15px;
 }
 
-.nav-link.active{
-    border-bottom: none !important;
+nav ul li{
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 500;
 }
 
-
-.navbar .nav-link:hover{
-    border-bottom: none !important;
+nav ul i{
+    display: none;
 }
-
-
+.mode{
+     border: 2px solid rgb(240, 233, 233);
+     padding: 5px;
+     border-radius: 8px;
+}
+nav .mode i{
+   
+    font-size: 1.5em;
+    margin: 0 10px;
 }
