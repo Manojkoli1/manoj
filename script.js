@@ -21,3 +21,30 @@ gsap.from("nav",{
     stagger:0.2,
    
 })
+
+let portfolio = document.getElementById("portfolio");
+let cursor = document.querySelector(".cursor");
+
+portfolio.addEventListener("mousemove",(e)=>{
+       gsap.to(cursor,{
+        x:e.x,
+        y:e.y,
+        duration:0.5,
+   
+
+       })
+})
+
+portfolio.addEventListener("mouseleave",(e)=>{
+       gsap.to(cursor,{
+      opacity:0
+        
+       })
+})
+
+portfolio.addEventListener("mouseenter",(e)=>{
+       gsap.to(cursor,{
+      opacity:1
+        
+       })
+})
