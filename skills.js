@@ -17,13 +17,13 @@ let skillsCollection = [
         title: ".NET"
     }, {
         img: "assets/linq.jpeg",
-        title: "LIN"
+        title: "LINQ"
     }, {
         img: "assets/postgres.png",
-        title: "HTML & CSS"
+        title: "POSTGRES"
     }, {
         img: "assets/vue.png",
-        title: "HTML & CSS"
+        title: "VUE JS"
     },
     
 ]
