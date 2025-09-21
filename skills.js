@@ -20,9 +20,9 @@ let skillsCollection = [
         title: "LINQ"
     }, {
         img: "assets/postgres.png",
-        title: "POSTGRES"
+        title: "POSTGRESQL "
     }, {
-        img: "assets/vue.png",
+        img: "assets/vue2.png",
         title: "VUE JS"
     },
     

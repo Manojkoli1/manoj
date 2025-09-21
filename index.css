@@ -168,6 +168,8 @@ nav .mode i {
 /* skills */
 
 #skills{
+    height: 100vh;
+    width: 100%;
     margin-top: 5rem;
 
 }
@@ -177,23 +179,47 @@ nav .mode i {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .image{
-  width: 70px;
+  width: 100px;
   height: 70px;
 }
 .image img{
     height: 100%;
     width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: transparent;
+
 }
 .skill{
-    height: 200px;
+    height: 180px;
     width: 170px;
-    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.996);
+}
+.skill p{
+    padding: 0.5rem;
+
+}
+  /* Projects */
+#projects{
+    height: 100vh;
+    width: 100%;
+}
+.projectsContainer{
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+  .project{
+    height: 350px;
+    width: 350px;
+    border: 2px solid white;
+    padding: 1rem;
+  }
