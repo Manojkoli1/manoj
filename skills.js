@@ -4,7 +4,7 @@ let skillsCollection = [
         title: "HTML & CSS"
     },
      {
-        img: "assets/JS.jpeg",
+        img: "assets/js.jpeg",
         title: "JAVASCRIPT"
     }, {
         img: "assets/bootstrap.jpeg",
