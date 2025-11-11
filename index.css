@@ -224,18 +224,19 @@ nav .mode i {
 }
 
 .projectsContainer {
-    margin-top: 5rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .project {
-    height: 400px;
-    width: 450px;
+    height: 55vh;
+    max-width: 60vh;
     border: 2px solid white;
     padding: 0.3rem;
-
 }
 
 .project video {
