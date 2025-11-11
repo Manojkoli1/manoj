@@ -11,8 +11,6 @@ let projectsCollection = [
         technology: "Dotnet Entity Framework Core",
         description: "Todo app with Entity Framework Core and MVC Architecture"
     }
-
-
 ]
 
 const projectsContainer = document.querySelector(".projectsContainer");
