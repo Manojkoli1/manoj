@@ -267,8 +267,68 @@ nav .mode i {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+   
 }
-.yellowline{
-   color: rgba(250, 208, 41, 0.996);
-   width: 200px;
+.contactMe h1{
+    margin: 0;
+}
+
+.line{
+    flex: 1;
+    height: 2px;
+    background-color: rgba(250, 208, 41, 0.996);
+    max-width: 600px;
+}
+
+.contactDetails .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 1.5rem;
+}
+.email{
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: rgba(250, 208, 41, 0.996);
+    background-color: rgb(20, 19, 19);
+}
+.email i{
+    color: white;
+    margin: 0 1rem;
+}
+.phone i{
+    color: white;
+    margin: 0 1rem;
+
+}
+.address i{
+    color: white;
+    margin: 0 1rem;
+
+}
+.phone{
+    background-color: rgb(20, 19, 19);
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: rgba(250, 208, 41, 0.996);
+
+}
+.address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 19, 19);
+    width: 350px;
+    text-align: center;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: rgba(250, 208, 41, 0.996);
+    margin: 0 auto;
+}
+
+.socialLinks i{
+    font-size: 1.2rem;
+    margin: 0 5px;
 }
