@@ -24,7 +24,7 @@ body {
 }
 #portfolio{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 nav {
@@ -80,7 +80,6 @@ nav ul i {
     border: 2px solid rgb(240, 233, 233);
     padding: 5px;
     border-radius: 8px;
-    margin-right: 5rem;
 }
 
 nav .mode i {
@@ -128,7 +127,7 @@ nav .mode i {
     height: 350px;
     width: 400px;
     margin-top: -5em;
-    margin-left: 10em;
+    margin-left: 20em;
 
 }
 
@@ -343,6 +342,8 @@ nav .mode i {
     font-size: 1.2rem;
     margin: 0 5px;
 }
+
+/* horizontal scroll bar issue solve */
 
 .container{
     width: 100%;
