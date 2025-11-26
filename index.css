@@ -343,3 +343,26 @@ nav .mode i {
     font-size: 1.2rem;
     margin: 0 5px;
 }
+
+.container{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.right{
+    height: 350px;
+    width: 400px;
+    margin-top: -5em;
+    margin-left: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    overflow: hidden;
+}
+
+.project video:hover{
+    transform: scale(1.1);
+}
