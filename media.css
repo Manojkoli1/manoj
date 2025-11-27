@@ -1,9 +1,11 @@
 @media only screen and (max-width:576px) {
-    nav ul li,.mode{
-        display:none ;
+
+    nav ul li,
+    .mode {
+        display: none;
     }
 
-    .logo{
+    .logo {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -11,91 +13,134 @@
         padding: 1rem;
     }
 
-/* hero  */
-.hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column-reverse;
-}
-.right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-left: -4em;
-  
-}
-.left{
-    margin-top: 4rem;
-    margin-left: 4em;
-}
+    /* hero  */
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
 
-/* About */
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: -4em;
 
-#about p{
-font-size: 1.3rem;
-}
+    }
 
-/* Skills */
+    .left {
+        margin-top: 4rem;
+        margin-left: 4em;
+    }
 
-.skills{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 40%;
-}
-.skill{
-    height: 120px;
-    width: 37%;
-}
-.image {
-    width: 80px;
-    height: 60px;
-  padding: 3px;
-}
-.image img {
-    height: 100%;
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 1rem;
-    background-color: transparent;
-}
+    /* About */
+   
+    #about .container p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        text-align: start;
+        width: 100%;
+        margin-top: 3rem;
+    }
 
-/* Projects */
+    #about h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: none;
+       
+    }
 
-#projects h1{
-    margin-top: 5rem;
-}
-.projectsContainer{
-    padding: 1.5rem;
-}
+    /* Skills */
 
-/* Contact */
-#contact{
-    margin-top: 27rem;
-}
+    #skills h1 {
+        margin-top: -2rem;
+    }
 
-.details{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.email{
-    width: 100%;
-    font-size: 1.1rem;
-}
-.phone{
-    width: 100%;
-    font-size: 1.1rem;
-}
-.address{
-    width: 100%;
-    font-size: 1.1rem;
-}
-.address i{
-    margin-left: -4.5rem;
-}
+    .skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 40%;
+    }
+
+    .skill {
+        height: 120px;
+        width: 37%;
+    }
+
+    .image {
+        width: 80px;
+        height: 60px;
+        padding: 3px;
+    }
+
+    .image img {
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        background-color: transparent;
+    }
+
+    /* Projects */
+
+    #projects h1 {
+        margin-top: 5rem;
+    }
+
+    .projectsContainer {
+        padding: 1.5rem;
+        margin-top: 0;
+        margin-top: 2.5rem;
+    }
+
+    /* Contact */
+    #contact {
+        margin-top: 27rem;
+        width: 95%;
+        margin: 25rem auto;
+    }
+
+    .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .email {
+        width: 100%;
+        font-size: 1.1rem;
+        /* text-align: center; */
+    }
+
+    .phone {
+        width: 100%;
+        font-size: 1.1rem;
+        /* text-align: center; */
+
+    }
+
+    .address {
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: 0;
+    }
+
+    .address i {
+        margin-left: -5.5rem;
+    }
+
+    #contact .linkss {
+        margin-top: -100rem;
+    }
+
+
 
 }
