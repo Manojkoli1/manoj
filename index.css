@@ -22,6 +22,9 @@ ul li{
 ul li a{
     text-decoration: none;
     color: black;
+    &:hover{
+        color: rgb(253, 184, 11);
+    }
 
 }
 nav{
@@ -56,6 +59,10 @@ nav i{
     border: 3px solid rgb(253, 184, 11);
     padding: 0.2rem 0.8rem;
     border-radius: 4px;
+    &:hover{
+        background-color: rgb(253, 184, 11);
+        color: white;
+    } 
    
 }
 
@@ -99,7 +106,6 @@ nav i{
    overflow: hidden;
 }
 
-/* about */
 
 #about{
     margin-top: 10rem;
@@ -107,18 +113,17 @@ nav i{
     width: 100%;
 }
 
-#about p{
-    font-size: 1.2rem;
-    margin-left: 4rem;
+.aboutText{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
 }
-
 
 /* skills */
 
-#skills{
+#skills{ 
     height: 100vh;
     width: 100%;
-    margin-top: -20rem;
+    margin-top: -15rem;           
 }
 .skill{
     height: 10rem;
@@ -129,7 +134,13 @@ nav i{
     align-items: center;
     flex-direction: column;
     padding: 0.4rem;
+    margin-top: 1.3rem;
 }
 .skillBox{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+   
 }
