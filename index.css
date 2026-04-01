@@ -5,33 +5,41 @@
     font-family: 'poppins', sans-serif;
 }
 
-.navbar{
+.navbar {
     height: 100vh;
     width: 100%;
-    
+
 }
-.logo{
+
+.logo {
     color: rgb(253, 184, 11);
     font-weight: 600;
 }
 
-ul li{
+ul li {
     list-style: none;
 
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: black;
-    &:hover{
+
+    &:hover {
         color: rgb(253, 184, 11);
+        text-decoration: underline;
+        text-underline-offset: 5px;
+
     }
 
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-ul{
+
+ul {
     display: flex;
     gap: 2rem;
     font-size: 1.2rem;
@@ -39,47 +47,51 @@ ul{
 
 /* icons */
 
-ul i{
-    display: none;   
+ul i {
+    display: none;
 }
-nav i{
+
+nav i {
     display: none;
 }
 
 /* hero */
 
-#hero{
+#hero {
     margin-top: 15rem;
     width: 100%;
 }
-#hero a{
+
+#hero a {
     color: rgb(253, 184, 11);
     text-decoration: none;
     font-size: 1.1rem;
     border: 3px solid rgb(253, 184, 11);
     padding: 0.2rem 0.8rem;
     border-radius: 4px;
-    &:hover{
+
+    &:hover {
         background-color: rgb(253, 184, 11);
         color: white;
-    } 
-   
+    }
+
 }
 
-.left p{
+.left p {
     font-size: 1.6rem;
 }
 
-.left span{
+.left span {
     font-size: 2.5rem;
     margin-left: 0.4rem;
     color: rgb(253, 184, 11);
 }
-.right{
-    margin-top: -5rem;   
+
+.right {
+    margin-top: -5rem;
 }
 
-.circle{
+.circle {
     height: 27rem;
     width: 27rem;
     border: 5px solid rgb(253, 184, 11);
@@ -88,59 +100,96 @@ nav i{
     justify-content: center;
     align-items: center;
 }
-.circle img{
+
+.circle img {
     width: 95%;
     height: 95%;
     object-fit: cover;
     transition: 0.5s;
 
 }
-.img-fluid{
+
+.img-fluid {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
 }
 
-.circle img:hover{
-   transform: scale(1.05);
-   overflow: hidden;
+.circle img:hover {
+    transform: scale(1.05);
+    overflow: hidden;
 }
 
 
-#about{
+#about {
     margin-top: 10rem;
     height: 100vh;
     width: 100%;
 }
 
-.aboutText{
+.aboutText {
     font-size: 1.3rem;
     line-height: 2.2rem;
 }
 
 /* skills */
 
-#skills{ 
+#skills {
     height: 100vh;
     width: 100%;
-    margin-top: -15rem;           
+    margin-top: -15rem;
 }
-.skill{
+
+.skill {
     height: 10rem;
     width: 8rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     padding: 0.4rem;
     margin-top: 1.3rem;
+    box-shadow: 2px 5px 10px rgb(197, 196, 194);
 }
-.skillBox{
+
+.skillBox {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 1.1rem;
-   
+}
+
+/* Projects */
+.projects {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+.project {
+    height: 20rem;
+    width: 25rem;
+    /* border: 1px solid black; */
+    gap: 1.5rem;
+    padding: 0.5rem;
+    box-shadow: 2px 5px 10px rgb(197, 196, 194);
+
+}
+.image{
+    background-color: yellow;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.project h4{
+    font-weight: 700;
+    margin-top: .5rem;
 }
