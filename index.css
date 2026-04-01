@@ -179,8 +179,14 @@ nav i {
     gap: 1.5rem;
     padding: 0.5rem;
     box-shadow: 2px 5px 10px rgb(197, 196, 194);
-
 }
+.project{
+    transition: 0.5s;
+}
+.project:hover{
+    transform: scale(1.05);
+}
+
 .image{
     background-color: yellow;
 }
