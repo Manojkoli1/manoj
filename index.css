@@ -210,21 +210,5 @@ img{
 
 /* contact */
 
-.contact h1{
-    margin: 5rem 0rem;
-}
-.mail,.phone, .location{
-    gap: 0.5rem;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    width: 20rem;
-    padding: 10px 0px;
-   
-}
-.contactBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10rem;
-}
+
+
