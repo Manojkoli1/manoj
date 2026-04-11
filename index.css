@@ -210,5 +210,48 @@ img{
 
 /* contact */
 
+.contact{
+    margin: 6rem 0;
+}
+.email, .phone, .location{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 30rem;
+    box-shadow: 2px 5px 7px rgb(230, 230, 221);
+    background-color: rgb(209, 234, 170);
+    border-radius: 10px;
+  
+}
+.email p{
+     margin: auto 0.7rem;
+}
+.phone p{
+     margin: auto 0.7rem;
+}
+.location p{
+     margin: auto 0.7rem;
+}
+.contactDetails{
+    flex-wrap: wrap;
+    margin-top: 3rem;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.contactDetails i{
+    font-size: 1.6rem;
+}
 
-
+.email i{
+    color: orange;
+}
+.phone i{
+    color: rgb(30, 246, 30);
+}
+.location i{
+    color:rgb(239, 7, 7);
+}
