@@ -221,7 +221,7 @@ img{
     height: 3.5rem;
     width: 30rem;
     box-shadow: 2px 5px 7px rgb(230, 230, 221);
-    background-color: rgb(209, 234, 170);
+    background-color: rgb(227, 245, 197);
     border-radius: 10px;
   
 }
@@ -245,7 +245,9 @@ img{
 .contactDetails i{
     font-size: 1.6rem;
 }
-
+.contactDetails p{
+    font-size: 1.2rem;
+}
 .email i{
     color: orange;
 }
